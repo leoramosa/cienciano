@@ -208,6 +208,11 @@ body {
 	color: white;
 	width: initial;
 }
+
+.aus {
+	display: flex;
+	justify-content: space-between;
+}
 /* End new style */
 
 a {
@@ -804,6 +809,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+	.aus {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 	.card_player_text-container {
 		padding: 0 35px;
 	}
